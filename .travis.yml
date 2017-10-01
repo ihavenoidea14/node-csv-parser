@@ -1,10 +1,12 @@
 language: node_js
 node_js:
-  - "8"
+- '8'
 deploy:
   provider: npm
   email: jarid.wade@icloud.com
   on:
     branch: master
-    tags: true
+    tags: false
     repo: ihavenoidea14/node-csv-parser
+  api_key:
+    secure: KoxOApbPBwscJLXUPyv/28mscEduaRgVwjOf7l9SPfYZukDsszJ1u/g447ZxjWHtZgaDSDT7UunGtNFj2u+W7lKa/LVbBbFkpXFhEm+2u7xyFMvfIOHqh6o4IbM0Br2m5eVB6h8XoIQxL6jB7ElF4QiwIFG0bXb4XjsFlj0i9YNLx+oTkERq6TQvVrP5JkgN8z5I05/KlGaoMfGWaHiqnocFTuynCxU9LBmBYreXpR97ilsaHZTBu9Z2VuRTHeD/wSPIMwetmvYAiUSJS+RS9oqs15x9cAMn2MlH5sKFl6AXJPW21TvDcnj5QK91OsQi51TzX1xHy7T6SVA2D98uFeADr8YJYvYggSydHdV7aPD3eD3Hb2yVCJYAQcjfR7t24X1e2mPsjMk6SM7TvdafIjD2rv7Pqnf0FhD/brCQL/vz/6+RXNci8nQpdkR79Fz4j0WiRJcesgkCfERb4V7XvRFXXAXawlUPv2r0Ma6xi8fZVKh/bcQSubwM7559knA9IxEIOkma6nOaWS4IRmqN8W51XOJ32U91hPfO4MY+vKbE6ylkGFtTkx9i8ZEuO8I59CeOPb/ohpazwCN7mliGBTk7YV9LDJw4JyZuyBzYkMXbzS9aFFhsXi8t8MG+Ak13l6L+1aNNyZ94acyWQjiIjw03QmqHHOxWV5CWoIs7yTc=
